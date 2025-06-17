@@ -735,6 +735,9 @@ const Admin: React.FC = () => {
                           <option value="Diretor">Diretor</option>
                           <option value="Reitor">Reitor</option>
                           <option value="Estudante de Nível Superior">Estudante de Nível Superior</option>
+                          <option value="Funcionários de Instituições Educacionais">
+                            Funcionários de Instituições Educacionais
+                          </option>
                         </select>
                       </div>
                     </div>

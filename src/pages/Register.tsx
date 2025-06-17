@@ -10,7 +10,13 @@ import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 
 // Definir as opções de profissão disponíveis
-const professionOptions = ["Professor", "Diretor", "Reitor", "Estudante de Nível Superior"] as const
+const professionOptions = [
+  "Professor",
+  "Diretor",
+  "Reitor",
+  "Estudante de Nível Superior",
+  "Funcionários de Instituições Educacionais",
+] as const
 
 const registerSchema = z
   .object({
